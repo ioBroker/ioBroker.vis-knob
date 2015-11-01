@@ -1,0 +1,36 @@
+{
+    "common": {
+        "name":                     "vis-knob",
+        "version": "0.0.1",
+        "title":                    "ioBroker Visualisation - jQuery-UI style Widgets",
+        "desc": {
+            "en":                   "Knob Widgets for ioBroker.vis",
+            "de":                   "Knob Widgets für ioBroker.vis",
+            "ru":                   "Knob Widgets для ioBroker.vis"
+        },
+        "platform":                 "Javascript/Node.js",
+        "loglevel":                 "info",
+        "icon":                     "knob.png",
+        "enabled":                  true,
+        "mode":                     "once",
+        "extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.vis-knob/master/admin/knob.png",
+        "keywords":                 ["knob", "vis", "GUI", "graphical", "scada"],
+        "readme":                   "https://github.com/ioBroker/ioBroker.vis-knob/blob/master/README.md",
+        "authors": [
+            "hobbyquaker <hq@ccu.io>",
+			"bluefox <dogafox@gmail.com>"
+        ],
+        "localLink":                "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+        "license":                  "MIT",
+        "dependencies":             ["vis"],
+        "onlyWWW":                  true,
+        "singleton":                true,
+        "type":                     "vis",
+		"restartAdapters":          ["vis"]
+    },
+    "native": {
+        "dependencies":          []
+    },
+    "instanceObjects": [
+    ]
+}
